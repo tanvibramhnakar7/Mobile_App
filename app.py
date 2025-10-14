@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-model = pickle.load(open("best_model.pkl", "rb"))
+model = pickle.load(open("best_ml.pkl", "rb"))
 
 # Streamlit App
 st.set_page_config(page_title="📱 Mobile Price Range Predictor", layout="centered")
